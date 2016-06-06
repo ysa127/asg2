@@ -46,7 +46,7 @@
 <br>
 <% @students.each do |student| %>
  
-    <svg style = "margin-top: 20px;"  height="<%= student.height%>" width="<%= student.weight%>">
+    <svg style = "margin-top: 20px;"   width="<%= student.weight+10%>" height="<%= student.height%>">
       <rect  width="<%= student.weight %>" 
               height="<%= student.height %>" 
               style=" fill:white;stroke-width:1;stroke:black" />
